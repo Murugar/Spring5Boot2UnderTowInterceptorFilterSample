@@ -14,6 +14,6 @@ public final class MainController {
     @GetMapping("/")
     public String index() {
         logger.info("index");
-        return "test";
+        return "this is a sample test";
     }
 }
